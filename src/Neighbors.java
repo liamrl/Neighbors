@@ -2,6 +2,7 @@ public class Neighbors {
     private int[][] board = new int[5][5];
 
     public void printBoard(){
+        System.out.println();
         for (int[] row : board){
             for (int i : row){
                 System.out.print(i + " ");
