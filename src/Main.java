@@ -17,7 +17,7 @@ public class Main {
                 if (n.isValid(row, col) && n.placeNumber(row, col, random)){
                     break;
                 }
-                System.out.println("That coordinate is either unvalid or already has a number. Try again");
+                System.out.println("That coordinate is either invalid or already has a number. Try again");
             }
             
 
